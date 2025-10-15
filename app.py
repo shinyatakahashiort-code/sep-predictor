@@ -10,7 +10,7 @@ from datetime import datetime
 
 # ページ設定
 st.set_page_config(
-    page_title="SE_p予測システム",
+    page_title="小児SE_p予測システム",
     page_icon="👁️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -46,7 +46,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # タイトル
-st.markdown('<p class="main-header">👁️ ICL術後 SE_p予測システム</p>', unsafe_allow_html=True)
+st.markdown('<p class="main-header">👁️ 小児のSE予測システム</p>', unsafe_allow_html=True)
 st.markdown("---")
 
 # モデル読み込み
